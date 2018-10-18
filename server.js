@@ -7,14 +7,14 @@ const profile = require('./routes/api/profile');
 const db = require('./db/db');
 const createProfile = require('./queries/createProfile');
 const app = express();
-//connect to db
-    mongoose
-    .connect(db,{useNewUrlParser: true})
-    .then(() => {
-        console.log('Connected to mongoDB.....!!!');
-    }).catch(() =>console.log('unable to connect to mongoDB....!!!'));
-//createProfile
-createProfile();
+// //connect to db
+//     mongoose
+//     .connect(db,{useNewUrlParser: true})
+//     .then(() => {
+//         console.log('Connected to mongoDB.....!!!');
+//     }).catch(() =>console.log('unable to connect to mongoDB....!!!'));
+// //createProfile
+// createProfile();
 //bodyparser
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
