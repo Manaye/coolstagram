@@ -1,27 +1,22 @@
 {
-  "name": "coolstagram",
+  "name": "newcoolstgram",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "cool app",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Manaye/coolstagram.git"
+    "url": "git+https://github.com/Silatibebe/coolstagram.git"
   },
   "author": "",
-  "contributors": [
-    {
-      "name": "Hiwot Nega"
-    }
-   
-  ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Manaye/coolstagram/issues"
+    "url": "https://github.com/Silatibebe/coolstagram/issues"
   },
-  "homepage": "https://github.com/Manaye/coolstagram#readme",
+  "homepage": "https://github.com/Silatibebe/coolstagram#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
