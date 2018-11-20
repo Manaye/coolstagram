@@ -1,5 +1,5 @@
 .main{
-    width: 35%; 
+    width: 25%; 
     margin: 0 auto;
  }
  .container,form{
@@ -50,7 +50,7 @@
     
      hr{
        display: inline-flex;
-       width: 43%;  
+       width: 37%;  
      }
      span{
          margin: 0px 10px;

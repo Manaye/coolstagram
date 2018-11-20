@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './InstaForm.css';
 import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+
 class InstaForm extends Component {
   render() {
     return (
@@ -17,10 +18,7 @@ class InstaForm extends Component {
           <Input type="password" name="password" id="password" placeholder="password placeholder" />
         </FormGroup>
         
-        <FormGroup>
-          <Label for="exampleText">Text Area</Label>
-          <Input type="textarea" name="text" id="exampleText" />
-        </FormGroup>
+       
         <div className="login-btn-container">
         <Button className="btn">Log in</Button>
         </div>
@@ -29,6 +27,7 @@ class InstaForm extends Component {
           <span>OR</span>
           <hr/>
         </div>
+        <p><span className="loginwith">Log in with Facebook</span></p>
         <div className="forgot-password">
         <a href="#"> Forgot password?</a>
         </div>
